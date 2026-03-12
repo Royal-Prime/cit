@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+.dashboard-page {
+  padding: 1rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.balance-cards-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.balance-card {
+  background: linear-gradient(135deg, #28a745, #218838); /* Green gradient */
+  border-radius: 12px;
+  padding: 20px;
+  color: #fff; /* White text for visibility */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+}
+
+.balance-card p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.balance-card h1 {
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+
+
+.transactions .transaction {
+  background: #222;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.actions button {
+  flex: 1;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.transfer-form {
+  background: #222;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.transfer-form h3 {
+  margin-bottom: 1rem;
+}
+
+.transfer-form input,
+.transfer-form button {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.4rem 0;
+  border-radius: 6px;
+  border: none;
+}
+
+.transfer-form input {
+  background: #333;
+  color: #fff;
+}
+
+.transfer-form button {
+  background: #0f0;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #00ffcc;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-container button:hover {
+  background: #00cc99;
+}
+
+.error {
+  color: #ff4d4d;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
